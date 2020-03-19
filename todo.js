@@ -64,8 +64,6 @@ function deleteTask(index){
 //Function used to mark which task has been completed with a checkbox
 function toggleComplete(el, index){
 
-    
-
     console.log(el.checked,index);
 
     fakeDatabase[index].completed = el.checked;
@@ -76,8 +74,6 @@ function toggleComplete(el, index){
     } else {
         item.classList.remove('completed');
     }
-
-    
 }
     
 

@@ -1,5 +1,5 @@
 //creating two starting objects in an array ("fake database") 
-let fakeDatabase = [{id:1, task:"första händelse", completed:false},{id:2, task:"andra händelse", completed:false}];  
+let fakeDatabase = [{id:1, task:"First task", completed:false},{id:2, task:"Second task", completed:false}];  
 
 //Calling for a function to render the output
 renderFakedata();  
